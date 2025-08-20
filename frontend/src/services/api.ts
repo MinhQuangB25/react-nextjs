@@ -45,19 +45,16 @@ export interface Booking {
 }
 
 export const tutorApi = {
-  // Get all tutors
   getAllTutors: async (): Promise<Tutor[]> => {
     const response = await api.get('/tutors');
     return response.data;
   },
 
-  // Get tutor by ID
   getTutorById: async (id: number): Promise<Tutor> => {
     const response = await api.get(`/tutors/${id}`);
     return response.data;
   },
 
-  // Search tutors
   searchTutors: async (params: {
     specialty?: string;
     minRating?: number;
@@ -69,7 +66,6 @@ export const tutorApi = {
 };
 
 export const bookingApi = {
-  // Create a new booking
   createBooking: async (bookingData: {
     tutorId: number;
     studentName: string;
@@ -82,7 +78,6 @@ export const bookingApi = {
     return response.data;
   },
 
-  // Get bookings by tutor
   getBookingsByTutor: async (tutorId: number): Promise<Booking[]> => {
     const response = await api.get(`/bookings/tutor/${tutorId}`);
     return response.data;

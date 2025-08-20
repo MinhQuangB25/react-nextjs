@@ -169,18 +169,12 @@ npm run build
 npm run start:prod
 ```
 
-## Đóng Góp
 
-1. Fork the project
-2. Create feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
 
 ## Liên Hệ
 
-- Email: support@englishtutorpro.com
-- Website: https://englishtutorpro.com
+- Email: buiminhquang246@gmail.com
+
 
 ## License
 
@@ -196,5 +190,4 @@ Dự án này được phát triển cho mục đích giáo dục và thương m
 - RESTful API design cho easy integration
 - CORS enabled cho cross-origin requests trong development
 
-**Thời gian hoàn thành MVP**: 1 tuần (theo yêu cầu)
 **Trạng thái hiện tại**: Core structure hoàn thành, ready for feature development

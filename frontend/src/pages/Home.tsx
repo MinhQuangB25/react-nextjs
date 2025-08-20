@@ -118,7 +118,6 @@ const Home: React.FC = () => {
 
   return (
     <Container maxWidth="lg">
-      {/* Hero Section */}
       <Box
         sx={{
           bgcolor: 'primary.main',
@@ -154,7 +153,6 @@ const Home: React.FC = () => {
         </Box>
       </Box>
 
-      {/* Benefits Section */}
       <Typography variant="h4" component="h2" textAlign="center" gutterBottom sx={{ mb: 4 }}>
         Tại Sao Chọn EnglishTutor Pro?
       </Typography>
@@ -183,7 +181,6 @@ const Home: React.FC = () => {
         ))}
       </Box>
 
-      {/* Featured Tutors */}
       <Typography variant="h4" component="h2" textAlign="center" gutterBottom sx={{ mb: 4 }}>
         Giáo Viên Nổi Bật
       </Typography>
@@ -249,7 +246,6 @@ const Home: React.FC = () => {
         </Box>
       )}
 
-      {/* CTA Section */}
       <Paper
         sx={{
           p: 4,

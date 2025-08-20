@@ -76,3 +76,6 @@ jspm_packages/
 
 # Serverless directories
 .serverless
+
+# GitHub Copilot instructions (not needed in repo)
+.github/
